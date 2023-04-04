@@ -16,3 +16,52 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  background-color: rgb(117, 199, 98);
+  font-size: 28px;
+  cursor: pointer;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-size: 200% auto;
+  background-image: linear-gradient(
+    to right,
+    #9eefe1 0%,
+    #4830f0 51%,
+    #9eefe1 100%
+  );
+  color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button:disabled {
+  background-image: none;
+  background-color: lightgray;
+}
+
+body > input {
+  padding: 10px;
+  font-size: 18px;
+  background-color: rgba(127, 127, 127, 0.1);
+  border-radius: 10px;
+  border-color: #4a4a4a;
+}
+
+.timer {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+}
+
+.value {
+  font-size: 28px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.label {
+  font-size: 18px;
+}
